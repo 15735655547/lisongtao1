@@ -1,0 +1,55 @@
+#popup-menu{
+    height: 190px;
+    width: 140px;
+    background-color: #424242;
+    position: absolute;     /*绝对定位,默认静态定位*/
+    top: 73px;
+    right: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;      /*两边留白*/
+    align-items: center;
+    font-weight: 300;
+}
+
+#small-triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #424242;
+    position: relative;
+    top: -11px;
+    left: 55px;
+}
+
+.popup-menu-content{
+    width: 90%;
+    border-bottom: 1px solid #616161;
+    display: flex;
+    padding: 6px 0 6px 0;   /*上右下左*/
+}
+.popup-menu-content:last-child{     /*最后一项*/
+    border-bottom: none;
+}
+.popup-menu-content img{
+    width: 22px;
+    height: 22px;
+}
+.popup-menu-content div{
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

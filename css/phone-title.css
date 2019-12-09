@@ -1,0 +1,74 @@
+#phone-title{
+    display: flex;
+    /*flex-direction: row;*/    /*默认，按行排列*/
+    /*flex-wrap: nowrap;*/      /*默认，不换行*/
+    /*缩写*/
+    /*flex-flow: row nowrap;*/
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+    background: #212121;    /*背景颜色*/
+    color: #ffffff;         /*文字颜色*/
+    font-size: 25px;        /*字体大小，默认16px == 1rem*/
+    position: fixed;
+    z-index: 999;
+}
+
+#phone-title-left{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;    /*水平居左*/
+    align-items: center;    /*垂直居中*/
+}
+.signal{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;     /*圆角，50%圆圈*/
+    border: 1px white solid;    /*边框，1像素 白色 实线*/
+    background-color: white;
+    margin: 1px;
+}
+.no-signal{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 1px white solid;
+    margin: 1px;
+}
+
+#phone-title-center{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone-title-right{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;  /*右对齐*/
+    align-items: center;
+}
+
+#phone-title-right div:nth-child(2){
+    border: 1px white solid;
+    height: 11px;
+    width: 30px;
+    margin-left: 4px;
+}
+#phone-title-right div:nth-child(2) div{
+    height: 9px;
+    width: 25px;
+    background-color: #76ff03;
+}
+#phone-title-right div:nth-child(3){
+    background-color: white;
+    height: 7px;
+    width: 2px;
+    margin-right: 6px;
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/*所有的标签*/
+*{
+    padding: 0px;     /*去掉所有标签默认填充*/
+    margin: 0;      /*去掉所有标签默认间距*/
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar{
+    display: none;
+}

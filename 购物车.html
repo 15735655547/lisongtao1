@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .shop li{
+            width: 100%;
+            height: 33%;
+            border: black solid 1px;
+            list-style: none;
+        }
+        .shop li img{
+            width: 85%;
+            padding: 30px 30px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/菜单/menu.css">
+</head>
+<body>
+<div id="top"style="width: 100%;height: 100px;display: flex;justify-content:space-between;align-items: center">
+    <a href="目录.html"><img src="img/返回键 (1).png" height="60" width="60" style="margin-top: 20px;background-color: white"/></a>
+    <p style="font-size: 55px">购物车</p>
+    <img src="img/省略号.png" width="9%"/>
+</div>
+<hr style="margin-top: 20px"/>
+<div style="width: 100%;height: 130px;display: flex;font-size: 40px;justify-content: space-between;align-items: center">
+    <p style="margin: auto;">登录后可同步账户购物车中的商品</p>
+    <a href="登录.html"></a> <p style="background-color: #ed1c24;color: white;margin-right: 80px">登录</p>
+</div>
+<div style="width: 100%;height: 600px;display: flex;justify-content: space-around;align-items: center;flex-flow: column;background-color: #eeeeee">
+    <img src="//img11.360buyimg.com/jdphoto/s180x180_jfs/t18163/292/540553659/74408/adeb7463/5a93c51cN3bb5e37b.png"style="width: 200px;margin-top: 60px">
+    <div style="margin-bottom: 100px;font-size: 40px;">登录后可同步购物车中商品
+    </div>>
+    <p style="font-size: 35px;color: #cccccc">———————&nbsp&nbsp&nbsp登录后开始购物&nbsp&nbsp&nbsp———————</p>
+</div>
+<!--<div style="width: 90%;height: 600px;border: black 1px;" >-->
+<!--<div style="display: flex;width: 95%;height:1800px; margin: auto;border: black 1px solid;">
+    <div style="border: black 1px solid;width: 50%;font-size: 35px"class="shop">
+        <li>
+            <img src="//img14.360buyimg.com/n7/jfs/t1/28404/20/1803/338514/5c1614fbE45610725/05d83ca2f265d01c.jpg!q70.dpg.webp" init_src="//img14.360buyimg.com/n7/jfs/t1/28404/20/1803/338514/5c1614fbE45610725/05d83ca2f265d01c.jpg!q70.dpg.webp">
+            <div style="display: flex">
+                <img src="https://img20.360buyimg.com/jdphoto/jfs/t1/97691/14/3984/3386/5de478dcE037aad73/9f582c42b5be2826.png" style="width: 100px">
+             <span class="my-span" title="无数无数无数无数无数">无数无数无数无数无数</span>
+            </div>
+
+        </li>
+        <li>
+            <img src="//img14.360buyimg.com/n7/jfs/t15034/36/143107923/232469/1fb14200/5a250c4bN20cde479.jpg!q70.dpg.webp" init_src="//img14.360buyimg.com/n7/jfs/t15034/36/143107923/232469/1fb14200/5a250c4bN20cde479.jpg!q70.dpg.webp">
+        </li>
+        <li>
+            <img src="//img14.360buyimg.com/n7/jfs/t1/71633/27/16383/80325/5de08552E16407aa6/00712f192eabfdda.jpg!q70.dpg.webp" init_src="//img14.360buyimg.com/n7/jfs/t1/71633/27/16383/80325/5de08552E16407aa6/00712f192eabfdda.jpg!q70.dpg.webp">
+        </li>
+    </div>
+    <div style="border: black 1px solid;width: 50%"></div>
+</div>-->
+<div id="menu">
+    <div class="menu-div" data-icon-normal="img/icon/menu/聊天.svg"
+         data-icon-press="img/icon/menu/聊天-press.svg"
+         data-target="wrap-chat">
+        <a href="首页.html"><img src="img/分类/红色/支付-京东 (3).png" height="60" width="60"/>
+            <div class="font-menu" style="margin-left: 20px">首页</div>
+        </a>
+    </div>
+
+    <div class="menu-div" data-icon-normal="img/icon/menu/通讯录.svg"
+         data-icon-press="img/icon/menu/通讯录-press.svg"
+         data-target="wrap-add-friend">
+
+        <a href="目录.html"> <img src="img/分类/分类.png"/>
+            <div class="font-menu">分类</div>
+        </a>
+    </div>
+    <div class="menu-div" data-icon-normal="img/icon/menu/发现.svg"
+         data-icon-press="img/icon/menu/发现-press.svg"
+         data-target="wrap-discovery">
+        <a href="购物车.html">
+            <img src="img/分类/红色/购物车 (2).png"/>
+            <div class="font-menu">购物车</div>
+        </a>
+    </div>
+    <div class="menu-div" data-icon-normal="img/icon/menu/me.svg"
+         data-icon-press="img/icon/menu/me-press.svg"
+         data-target="wrap-me">
+
+        <a href="登录.html" >
+            <img src="img/分类/未登录 (2).png" height="60" width="60"/>
+
+            <div class="font-menu">未登录</div>
+        </a>
+    </div>
+</div>
+</body>
+</html>

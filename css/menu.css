@@ -1,0 +1,26 @@
+#menu{
+    height: 100px;
+    display: flex;
+    /*1.x方向2.y方向3.宽度4.颜色 5.向内*/
+    box-shadow: 0 1px 1px gainsboro inset;
+    opacity: .8;    /*透明度  0 ~ 1*/
+    background-color: white;
+    position: relative;
+}
+
+.menu-div{
+    margin-left: 70px;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-div img{
+    width: 60px;
+    height: 60px;
+    opacity: .7;
+}
+.font-menu{
+    margin-top: 4px;
+    font-weight: 200;
+    font-size: 30px;
+}
