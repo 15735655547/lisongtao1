@@ -5,6 +5,7 @@
     box-shadow: 0 1px 1px gainsboro inset;
     opacity: .8;    /*透明度  0 ~ 1*/
     background-color: white;
+
     position: relative;
 }
 

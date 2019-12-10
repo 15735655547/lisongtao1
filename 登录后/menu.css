@@ -1,0 +1,39 @@
+#menu{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    /*1.x方向2.y方向3.宽度4.颜色 5.向内*/
+    box-shadow: 0 1px 1px gainsboro inset;
+    opacity: .8;    /*透明度  0 ~ 1*/
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    justify-content: space-around;
+    z-index: 999;
+
+}
+
+.menu-div{
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-div img {
+    width:100px;
+    height: 100px;
+    opacity: .7;
+}
+.font-menu{
+    margin-top: 4px;
+    font-weight: 200;
+    font-size: 40px;
+}
+.menu-div a{
+    text-decoration: none;
+}
+.menu-div a:hover{
+    opacity: 0.8;
+    color: #ed1c24;
+}
